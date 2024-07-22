@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Book Store</title>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid black;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-image {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.book-info {
+  margin-left: 10px;
+}
+
+.cart-button {
+  background-color: #FFD700; /* Yellow */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<h2>Book Store</h2>
+
+<table>
+  <tr>
+    <th>Login</th>
+    <th>Registration</th>
+    <th>Catalogue</th>
+    <th>Cart</th>
+  </tr>
+  <tr>
+    <td>
+      <div class="image-container">
+        <img src="HARRY.jpeg" alt="harry potter" class="book-image">
+      </div>
+    </td>
+    <td>
+      <div class="book-info">
+        Book: HARRY POTTER<br>
+        Author: AAAAAA<br>
+        Publication: SDFGHLK
+      </div>
+    </td>
+    <td>
+      Rs 120
+    </td>
+    <td>
+      <button class="cart-button">Add to cart</button>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div class="image-container">
+        <img src="atomic_habits.jpeg" alt="atomic_habits" class="book-image">
+      </div>
+    </td>
+    <td>
+      <div class="book-info">
+        Book: ATOMI HABITS Author: SSFSDF<br>
+        Publication: SFSFSFASDF
+      </div>
+    </td>
+    <td>
+      Rs 94
+    </td>
+    <td>
+      <button class="cart-button">Add to cart</button>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div class="image-container">
+        <img src="IT_ENDS.jpeg" alt="IT ENDS" class="book-image">
+      </div>
+    </td>
+    <td>
+      <div class="book-info">
+        Book: IT ENDS<br>
+        Author: SLFJA<br>
+        Publication: LAJSDFLs
+      </div>
+    </td>
+    <td>
+      Rs 234
+    </td>
+    <td>
+      <button class="cart-button">Add to cart</button>
+    </td>
+  </tr>
+  
+</table>
+
+</body>
+</html>

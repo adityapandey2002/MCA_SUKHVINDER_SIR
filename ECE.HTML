@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Book Store</title>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid black;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-image {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.book-info {
+  margin-left: 10px;
+}
+
+.cart-button {
+  background-color: #FFD700; /* Yellow */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<h2>Book Store</h2>
+
+<table>
+  <tr>
+    <th>Login</th>
+    <th>Registration</th>
+    <th>Catalogue</th>
+    <th>Cart</th>
+  </tr>
+  <tr>
+    <td>
+      <div class="image-container">
+        <img src="HANDBOOK.jpeg" alt="HANDBOOK" class="book-image">
+      </div>
+    </td>
+    <td>
+      <div class="book-info">
+        Book: HANDBOOK<br>
+        Author: AASDFK<br>
+        Publication: SSFSEWFSF
+      </div>
+    </td>
+    <td>
+      Rs 39
+    </td>
+    <td>
+      <button class="cart-button">Add to cart</button>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div class="image-container">
+        <img src="ELECTRONICS_ENG.JPEG" alt="ELECTRONICS_ENG" class="book-image">
+      </div>
+    </td>
+    <td>
+      <div class="book-info">
+        Book: ELECTRONICS ENGINEERING Author: SKJFL<br>
+        Publication: ASAFSFASDF
+      </div>
+    </td>
+    <td>
+      Rs 94
+    </td>
+    <td>
+      <button class="cart-button">Add to cart</button>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div class="image-container">
+        <img src="GATE.JPEG" alt="GATE" class="book-image">
+      </div>
+    </td>
+    <td>
+      <div class="book-info">
+        Book: GATE<br>
+        Author: SKFLSSLFA<br>
+        Publication: AAAAAAAA
+      </div>
+    </td>
+    <td>
+      Rs 3948
+    </td>
+    <td>
+      <button class="cart-button">Add to cart</button>
+    </td>
+  </tr>
+  
+</table>
+
+</body>
+</html>
